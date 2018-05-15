@@ -25,7 +25,8 @@ def download_episodes():
 
 
 def show_id_latest():
-    return max(episode_data.keys())
+    total_episode_count = episode_data.keys()
+    return max(total_episode_count)
 
 
 def get_episodes(show_id):
